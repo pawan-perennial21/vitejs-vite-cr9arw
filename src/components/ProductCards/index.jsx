@@ -1,4 +1,3 @@
-import { Card } from 'antd';
 import React from 'react';
 import SalesCard from '../SalesCard';
 
@@ -167,6 +166,7 @@ export const ProductCards = () => {
       ],
     },
   ];
+
   return (
     <>
       {mockData.map((item) => (
