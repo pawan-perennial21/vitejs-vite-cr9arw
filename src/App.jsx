@@ -1,9 +1,9 @@
-import { ProductCard } from './components/ProductCard';
 import './App.css';
+import ProductCards from './components/ProductCards';
 function App() {
   return (
     <div className="App">
-      <ProductCard />
+      <ProductCards />
     </div>
   );
 }
